@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/products.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRODUCTS</title>
+  </head>
+  <body>
+    <div class="container">
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Edit Product</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="editsend">
+          
+                    <label for="editname" class="w-50 my-2">
+                      <span>Edit Product name</span>
+                      <input id="editname" type="text" class="form-control p-3 w-100">
+                    </label>
+                    <label for="editprice" class="w-50 my-2">
+                      <span>Edit Product price</span>
+                      <input id="editprice" type="number" class="form-control p-3 w-100">
+                    </label>
+          
+                    <button type="submit" class="btn btn-success w-100 p-3 my-3">
+                      ADD
+                    </button>
+                  </form>
+      </div>
+      <div class="modal-footer">
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+      <div class="wrapper">
+        <form id="send">
+<h1>Add products</h1>
+          <label for="lesson" class="w-50 my-2">
+            <span>Product name</span>
+            <input id="product-name" type="text" class="form-control p-3 w-100">
+          </label>
+          <label for="lesson" class="w-50 my-2">
+            <span>Product price</span>
+            <input id="product-price" type="text" class="form-control p-3 w-100">
+          </label>
+
+          <button type="submit" class="btn btn-success w-100 p-3 my-3">
+            ADD
+          </button>
+        </form>
+
+
+
+
+        <!-- <table class="table table-striped table-hover table-bordered table-responsive"> -->
+          <!-- <thead>
+            <tr>
+              <th>Products</th>
+              <th>Name</th>
+              <th>Price</th>
+              <th>Edit</th>
+              <th>Delete</th>
+            </tr>
+          </thead> -->
+
+<div id="data" class="card-wrapp shadow-lg"></div>
+
+          <!-- <tbody >
+
+          </tbody> -->
+
+        <!-- </table> -->
+          </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script/utils.js"></script>
+  <script src="./script/bootstarp.js"></script>
+  <script src="./products.js"></script>
+</html>

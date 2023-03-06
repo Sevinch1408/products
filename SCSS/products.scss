@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+width: 1400px;
+margin: 0 auto;
+}
+
+
+.elImage{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.card-wrapp{
+   display:flex;
+flex-wrap: wrap;
+flex-direction: row;
+gap: 40px;
+margin: 10px auto;
+}
+
+.item{
+    width: 350px;
+    // background-color: aqua;
+    border:solid gray;
+   
+}
+
+.image{
+width: 100px;
+height: 70px;
+}
